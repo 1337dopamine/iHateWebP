@@ -3,6 +3,7 @@ browser extension to convert WebP images to PNG/JPG images automatically
 
 ## how to install ts
 https://dopamine.gay/i/hate/webp/#Jimmy1337Tutorials-how-to-install
+https://github.com/1337dopamine/iHateWebP/wiki
 
 ## why?
 im bored
