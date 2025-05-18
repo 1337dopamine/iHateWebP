@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 16px;
+      width: 220px;
+    }
+
+    h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+
+    select, input[type="checkbox"] {
+      margin-left: 8px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🖼️ iHateWebP</h1>
+
+  <div class="row">
+    <label for="toggle">Enable</label>
+    <input type="checkbox" id="toggle" />
+  </div>
+
+  <div class="row">
+    <label for="format">Convert to</label>
+    <select id="format">
+      <option value="png">PNG</option>
+      <option value="jpg">JPG</option>
+    </select>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
